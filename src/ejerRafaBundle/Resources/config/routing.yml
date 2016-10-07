@@ -1,0 +1,7 @@
+ejer_rafa_homepage:
+    path:     /
+    defaults: { _controller: ejerRafaBundle:Default:index }
+
+moto_homepage:
+    path:     /moto/{num}
+    defaults: { _controller: ejerRafaBundle:Default:moto }
